@@ -8,10 +8,13 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .orane{
     color: orange;
 }
-section{
+.flex{
     display: flex;
     margin-bottom: 60px;
 }
@@ -43,4 +46,25 @@ section{
     background-repeat: no-repeat;
     background-position: right;
     margin: 0;
+}
+.tool{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 20px;
+    box-shadow: 10px 10px 50px gray;
+    border-radius: 10px;
+    border-left: 10px solid orange;
+}
+.experiense{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+   
+}
+#bt{
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
